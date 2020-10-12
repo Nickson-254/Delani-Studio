@@ -6,6 +6,32 @@ body{
 p{
     text-align: center;
 }
-.div{
-    background-image: "img/h_img.jpg";
+
+header{
+    background-image: url("../img/h_img.jpg");
+    background-size: cover;
+}
+h4{
+    text-align:center;
+}
+.product-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-wrapper .product{
+    margin: 20px 20px;
+    width: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.product-wrapper .product img{
+    width: 200px !important;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.product-wrapper .product p{
+    padding-left:10px
 }
